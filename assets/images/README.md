@@ -7,8 +7,8 @@ Until you do, the site shows nice textured placeholders automatically.
 
 | Section            | File name                  | Suggested ratio | Status                                   |
 |--------------------|----------------------------|-----------------|------------------------------------------|
-| Hero               | `hero.jpg` / `.webp`       | 4:5 (portrait)  | ✅ live (coral 3-bag shot, optimized)     |
-| Story / studio     | `studio.jpg` / `.webp`     | 3:4             | ⚠️ temporary crop of the hero (grey bag detail) — replace with a real studio/artisan photo when ready |
+| Hero               | `hero.jpg` / `.webp`       | 1:1 (square)    | ✅ live (crouching model + black bag, optimized) |
+| Story / studio     | `studio.jpg` / `.webp`     | 4:3 (landscape) | ✅ live (black bag + branded dust bag, optimized) |
 | For everyone (him) | `him.jpg`                  | 3:4             | ⬜ placeholder — add photo                 |
 | For everyone (all) | `unisex.jpg`               | 3:4             | ⬜ placeholder — add photo                 |
 | For everyone (her) | `her.jpg`                  | 3:4             | ⬜ placeholder — add photo                 |

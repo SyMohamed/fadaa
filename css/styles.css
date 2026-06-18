@@ -476,11 +476,11 @@ em { font-style: italic; }
 
 /* real photos */
 .hero__photo {
-  width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;
+  width: 100%; aspect-ratio: 1/1; object-fit: cover; display: block;
   border-radius: 20px; box-shadow: 0 30px 60px rgba(43,33,28,.22);
 }
 .story__photo {
-  width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block;
+  width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block;
   border-radius: 18px; box-shadow: 0 22px 45px rgba(43,33,28,.16);
 }
 .ph--tall { aspect-ratio: 3/4; border-radius: 18px; }
