@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2b211c" />
+  <title>FADAA — Handcrafted Crochet Bags</title>
+  <meta name="description" content="FADAA — artisanal crocheted bags for everyone. Totes, hangbags, crossbody, clutches and accessories, crafted stitch by stitch." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ░░ PRELOADER ░░ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <svg class="preloader__yarn" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="46" class="yarn-ball"></circle>
+        <path class="yarn-thread" d="M60 14 q40 20 0 46 q-40 26 0 46" />
+      </svg>
+      <span class="preloader__word">FADAA</span>
+      <span class="preloader__sub">crafted, stitch by stitch</span>
+    </div>
+  </div>
+
+  <!-- ░░ CUSTOM CURSOR ░░ -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <!-- ░░ SCROLL PROGRESS ░░ -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ░░ NAV ░░ -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__logo" aria-label="FADAA home">
+      <img src="assets/logo.svg" alt="FADAA" />
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#story" data-link>Story</a>
+      <a href="#collections" data-link>Collections</a>
+      <a href="#everyone" data-link>For Everyone</a>
+      <a href="#craft" data-link>Craft</a>
+      <a href="#lookbook" data-link>Lookbook</a>
+      <a href="#contact" data-link class="nav__cta">Get in touch</a>
+    </nav>
+
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- ░░ HERO ░░ -->
+    <section class="hero" id="home">
+      <div class="hero__bg-text" aria-hidden="true">FADAA</div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">Handcrafted crochet · Est. 2026</p>
+        <h1 class="hero__title">
+          <span class="line"><span>Carry</span></span>
+          <span class="line"><span>something</span></span>
+          <span class="line"><span><em>handmade.</em></span></span>
+        </h1>
+        <p class="hero__lead reveal">
+          FADAA — <span lang="ar" dir="rtl">فضاء</span> — meaning <strong>space</strong>.
+          Crocheted bags with room for everything you love. Made stitch by stitch,
+          worn by everyone.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#collections" class="btn btn--solid" data-magnetic>Explore collections</a>
+          <a href="#story" class="btn btn--ghost" data-magnetic>Our story</a>
+        </div>
+      </div>
+
+      <div class="hero__card" data-tilt>
+        <div class="ph ph--hero" data-ph="Hero bag photo">
+          <span class="ph__label">Drop hero bag photo<br><code>assets/images/hero.jpg</code></span>
+        </div>
+        <div class="hero__badge">
+          <span>100%</span><small>hand crocheted</small>
+        </div>
+      </div>
+
+      <a href="#story" class="hero__scroll" aria-label="Scroll down">
+        <span>scroll</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ░░ MARQUEE ░░ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Hand crocheted ✦ For him &amp; for her ✦ One stitch at a time ✦ Totes ✦ Hangbags ✦ Crossbody ✦ Clutches ✦ Accessories ✦ Made with love ✦ </span>
+        <span>Hand crocheted ✦ For him &amp; for her ✦ One stitch at a time ✦ Totes ✦ Hangbags ✦ Crossbody ✦ Clutches ✦ Accessories ✦ Made with love ✦ </span>
+      </div>
+    </div>
+
+    <!-- ░░ STORY ░░ -->
+    <section class="story" id="story">
+      <div class="story__media" data-tilt>
+        <div class="ph ph--tall" data-ph="Studio photo">
+          <span class="ph__label">Studio / artisan photo<br><code>assets/images/studio.jpg</code></span>
+        </div>
+        <div class="story__stat">
+          <strong data-count="40">0</strong><span>hours per piece</span>
+        </div>
+      </div>
+
+      <div class="story__text">
+        <p class="section-eyebrow reveal">The story</p>
+        <h2 class="section-title reveal">Space to be<br><em>entirely yourself.</em></h2>
+        <p class="reveal">
+          FADAA was born from a simple belief: the things we carry should be made
+          slowly, honestly, and with intention. Every bag is crocheted by hand —
+          no two stitches quite the same — so what you hold is genuinely one of a kind.
+        </p>
+        <p class="reveal">
+          We design beyond the binary. A FADAA bag belongs on any shoulder, any arm,
+          any adventure — for him, for her, for everyone in between.
+        </p>
+        <ul class="story__list reveal">
+          <li><span>01</span> Natural, responsibly sourced yarns</li>
+          <li><span>02</span> Made by independent artisans</li>
+          <li><span>03</span> Designed to last, made to be loved</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ░░ COLLECTIONS ░░ -->
+    <section class="collections" id="collections">
+      <div class="collections__head">
+        <div>
+          <p class="section-eyebrow reveal">The collections</p>
+          <h2 class="section-title reveal">Find your<br><em>shape.</em></h2>
+        </div>
+        <p class="collections__intro reveal">
+          From everyday totes to statement clutches — explore the FADAA family by type.
+          Filter and find the bag that carries your world.
+        </p>
+      </div>
+
+      <div class="filters reveal" id="filters" role="tablist" aria-label="Filter collections">
+        <button class="filter is-active" data-filter="all">All</button>
+        <button class="filter" data-filter="tote">Totes</button>
+        <button class="filter" data-filter="hang">Hangbags</button>
+        <button class="filter" data-filter="crossbody">Crossbody</button>
+        <button class="filter" data-filter="clutch">Clutches</button>
+        <button class="filter" data-filter="accessory">Accessories</button>
+      </div>
+
+      <div class="grid" id="productGrid"><!-- products injected by JS --></div>
+    </section>
+
+    <!-- ░░ FOR EVERYONE ░░ -->
+    <section class="everyone" id="everyone">
+      <div class="everyone__bg" aria-hidden="true"></div>
+      <div class="everyone__inner">
+        <p class="section-eyebrow light reveal">No labels, just style</p>
+        <h2 class="everyone__title reveal">Worn by <span class="swap" id="swapWord">everyone</span>.</h2>
+        <p class="everyone__lead reveal">
+          FADAA bags are designed to be unisex by nature. The same piece, styled
+          a hundred different ways, carried by a hundred different people.
+        </p>
+        <div class="everyone__row">
+          <figure class="everyone__fig" data-tilt>
+            <div class="ph" data-ph="For him"><span class="ph__label">For him<br><code>assets/images/him.jpg</code></span></div>
+            <figcaption>For him</figcaption>
+          </figure>
+          <figure class="everyone__fig everyone__fig--mid" data-tilt>
+            <div class="ph" data-ph="Unisex"><span class="ph__label">Unisex<br><code>assets/images/unisex.jpg</code></span></div>
+            <figcaption>For everyone</figcaption>
+          </figure>
+          <figure class="everyone__fig" data-tilt>
+            <div class="ph" data-ph="For her"><span class="ph__label">For her<br><code>assets/images/her.jpg</code></span></div>
+            <figcaption>For her</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ CRAFT / PROCESS ░░ -->
+    <section class="craft" id="craft">
+      <p class="section-eyebrow reveal">The craft</p>
+      <h2 class="section-title reveal">From a single<br><em>thread.</em></h2>
+
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step__num">01</span>
+          <h3>Choose the yarn</h3>
+          <p>We hand-pick natural cotton and blended yarns for texture, strength and a beautiful drape.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step__num">02</span>
+          <h3>Crochet by hand</h3>
+          <p>Each bag is looped, knotted and shaped entirely by hand — often over many hours.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step__num">03</span>
+          <h3>Finish &amp; line</h3>
+          <p>Handles, linings and hardware are fitted and finished so your bag is ready for real life.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step__num">04</span>
+          <h3>Carry it forward</h3>
+          <p>It arrives at your door — a one-of-a-kind piece made to be carried for years.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ░░ LOOKBOOK ░░ -->
+    <section class="lookbook" id="lookbook">
+      <div class="lookbook__head">
+        <p class="section-eyebrow reveal">The lookbook</p>
+        <h2 class="section-title reveal">In the<br><em>wild.</em></h2>
+      </div>
+      <div class="lookbook__grid">
+        <div class="ph lb lb--1" data-ph="Look 1" data-tilt><span class="ph__label">assets/images/look-1.jpg</span></div>
+        <div class="ph lb lb--2" data-ph="Look 2" data-tilt><span class="ph__label">assets/images/look-2.jpg</span></div>
+        <div class="ph lb lb--3" data-ph="Look 3" data-tilt><span class="ph__label">assets/images/look-3.jpg</span></div>
+        <div class="ph lb lb--4" data-ph="Look 4" data-tilt><span class="ph__label">assets/images/look-4.jpg</span></div>
+        <div class="ph lb lb--5" data-ph="Look 5" data-tilt><span class="ph__label">assets/images/look-5.jpg</span></div>
+      </div>
+    </section>
+
+    <!-- ░░ TESTIMONIAL ░░ -->
+    <section class="quote">
+      <blockquote class="reveal">
+        <p>“It’s the only bag people stop me to ask about. Knowing someone made it
+        by hand makes it feel <em>alive.</em>”</p>
+        <cite>— Layla, Dubai</cite>
+      </blockquote>
+    </section>
+
+    <!-- ░░ NEWSLETTER / CTA ░░ -->
+    <section class="cta" id="contact">
+      <div class="cta__inner">
+        <h2 class="cta__title reveal">Join the FADAA circle.</h2>
+        <p class="reveal">Be first to know about new drops, restocks and one-off pieces.</p>
+        <form class="cta__form reveal" id="signupForm" novalidate>
+          <input type="email" name="email" placeholder="your@email.com" aria-label="Email address" required />
+          <button type="submit" class="btn btn--solid" data-magnetic>Subscribe</button>
+        </form>
+        <p class="cta__note" id="formNote" role="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="#home" class="footer__logo"><img src="assets/logo.svg" alt="FADAA" /></a>
+      <p class="footer__tag">Crocheted bags with space for everything you love.</p>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h4>Shop</h4>
+        <a href="#collections">Totes</a>
+        <a href="#collections">Hangbags</a>
+        <a href="#collections">Crossbody</a>
+        <a href="#collections">Accessories</a>
+      </div>
+      <div>
+        <h4>About</h4>
+        <a href="#story">Our story</a>
+        <a href="#craft">The craft</a>
+        <a href="#everyone">For everyone</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="#" data-social>Instagram</a>
+        <a href="#" data-social>TikTok</a>
+        <a href="#" data-social>Pinterest</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> FADAA. All rights reserved.</span>
+      <span>Made stitch by stitch ✦</span>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
