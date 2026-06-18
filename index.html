@@ -82,9 +82,13 @@
       </div>
 
       <div class="hero__card" data-tilt>
-        <div class="ph ph--hero" data-ph="Hero bag photo">
-          <span class="ph__label">Drop hero bag photo<br><code>assets/images/hero.jpg</code></span>
-        </div>
+        <picture>
+          <source media="(max-width: 600px)" type="image/webp" srcset="assets/images/hero-mobile.webp" />
+          <source media="(max-width: 600px)" srcset="assets/images/hero-mobile.jpg" />
+          <source type="image/webp" srcset="assets/images/hero.webp" />
+          <img class="hero__photo" src="assets/images/hero.jpg" width="1400" height="2099"
+               alt="FADAA model holding three handcrafted crochet hangbags in burgundy, grey and black" fetchpriority="high" />
+        </picture>
         <div class="hero__badge">
           <span>100%</span><small>hand crocheted</small>
         </div>
@@ -107,9 +111,11 @@
     <!-- ░░ STORY ░░ -->
     <section class="story" id="story">
       <div class="story__media" data-tilt>
-        <div class="ph ph--tall" data-ph="Studio photo">
-          <span class="ph__label">Studio / artisan photo<br><code>assets/images/studio.jpg</code></span>
-        </div>
+        <picture>
+          <source type="image/webp" srcset="assets/images/studio.webp" />
+          <img class="story__photo" src="assets/images/studio.jpg" width="1100" height="1467" loading="lazy"
+               alt="Close-up of a handcrafted FADAA crochet bag showing the stitch texture and leather tag" />
+        </picture>
         <div class="story__stat">
           <strong data-count="40">0</strong><span>hours per piece</span>
         </div>

@@ -473,6 +473,16 @@ em { font-style: italic; }
   opacity: .12;
 }
 .ph--hero { aspect-ratio: 4/5; border-radius: 20px; box-shadow: 0 30px 60px rgba(43,33,28,.22); }
+
+/* real photos */
+.hero__photo {
+  width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;
+  border-radius: 20px; box-shadow: 0 30px 60px rgba(43,33,28,.22);
+}
+.story__photo {
+  width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block;
+  border-radius: 18px; box-shadow: 0 22px 45px rgba(43,33,28,.16);
+}
 .ph--tall { aspect-ratio: 3/4; border-radius: 18px; }
 .ph__label {
   position: relative; z-index: 1; text-align: center; font-size: .72rem; letter-spacing: .06em;
