@@ -9,10 +9,14 @@ Until you do, the site shows nice textured placeholders automatically.
 |--------------------|----------------------------|-----------------|------------------------------------------|
 | Hero               | `hero.jpg` / `.webp`       | 1:1 (square)    | ✅ live (crouching model + black bag, optimized) |
 | Story / studio     | `studio.jpg` / `.webp`     | 4:3 (landscape) | ✅ live (black bag + branded dust bag, optimized) |
-| For everyone (him) | `him.jpg`                  | 3:4             | ⬜ placeholder — add photo                 |
-| For everyone (all) | `unisex.jpg`               | 3:4             | ⬜ placeholder — add photo                 |
-| For everyone (her) | `her.jpg`                  | 3:4             | ⬜ placeholder — add photo                 |
-| Lookbook           | `look-1.jpg` … `look-5.jpg`| mixed           | ⬜ placeholder — add photos                |
+| For everyone (him) | `him.jpg` / `.webp`        | 3:4             | 🔁 temporary — reused crop, replace later  |
+| For everyone (all) | `unisex.jpg` / `.webp`     | 3:4             | 🔁 temporary — reused crop, replace later  |
+| For everyone (her) | `her.jpg` / `.webp`        | 3:4             | 🔁 temporary — reused crop, replace later  |
+| Lookbook           | `look-1.jpg` … `look-5.jpg`| mixed           | 🔁 temporary — reused crops, replace later |
+
+> The "for everyone" and lookbook images are currently **temporary** — three
+> uploaded shots (coral 3-bag, blush crouch, beige bomber) cropped to fit each
+> slot. Replace the files in place (same names) with final photos when ready.
 
 ## Image optimization (important)
 
