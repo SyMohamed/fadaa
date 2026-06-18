@@ -24,8 +24,9 @@
   const products = window.FADAA_PRODUCTS || [];
   if (grid) {
     grid.innerHTML = products.map((p) => {
+      const webp = p.image ? p.image.replace(/\.jpe?g$/i, ".webp") : "";
       const media = p.image
-        ? `<div class="card__media"><div class="ph"><img src="${p.image}" alt="${p.name}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover" /></div></div>`
+        ? `<div class="card__media"><picture><source type="image/webp" srcset="${webp}" /><img class="card__img" src="${p.image}" alt="${p.name}" loading="lazy" /></picture></div>`
         : `<div class="card__media"><div class="ph" data-shade="${p.shade}" data-tilt><span class="ph__label">${p.name}</span></div></div>`;
       const tag = p.tag ? `<span class="card__tag">${p.tag}</span>` : "";
       return `
